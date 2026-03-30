@@ -1,0 +1,29 @@
+# ==============================
+# SECRET FILES — NEVER COMMIT
+# ==============================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Next.js
+.next/
+out/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vercel
+.vercel
