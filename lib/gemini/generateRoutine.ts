@@ -3,7 +3,7 @@ import { GenerateRoutineInput, GenerateRoutineOutput } from '@/types';
 import { routineOutputSchema } from '@/lib/validations/routine';
 
 // gemini-2.5-flash: FREE tier — 15 RPM, 1500 RPD, no credit card needed
-const FREE_MODEL = 'gemini-2.5-flash';
+// const FREE_MODEL = 'gemini-2.5-flash';
 const FREE_MODEL = 'gemini-2.5-flash-lite';
 
 
