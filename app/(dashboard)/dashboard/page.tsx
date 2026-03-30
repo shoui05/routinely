@@ -47,7 +47,7 @@ export default async function DashboardPage() {
           {routines.map((r) => (
             <Link
               key={r.id}
-              href={`/dashboard/routine/${r.id}`}
+              href={`/routine/${r.id}`}
               className="group relative bg-[#161719] border border-white/8 rounded-2xl p-5
                          hover:border-white/15 transition-all hover:-translate-y-0.5 overflow-hidden"
             >
